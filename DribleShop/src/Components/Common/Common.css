@@ -1,3 +1,19 @@
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+}
+.footerSection{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerSection a{
+    text-decoration: none;
+    color: white;
+}
+
 .menu {
     background-color: #333;
     padding: 1em 0;

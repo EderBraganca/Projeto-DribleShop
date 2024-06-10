@@ -1,6 +1,6 @@
-import './Menu.css';
+import './Common.css';
 
-export const Menu = () => {
+export const Header = () => {
     return (
         <nav className="menu">
             <ul>

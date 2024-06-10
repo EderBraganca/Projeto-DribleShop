@@ -25,6 +25,12 @@ export default {
 }
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Directory explain (in PT-BR):
+
+- assets: Armazena recursos estáticos como imagens, fontes, etc.
+- components: Contém componentes React organizados por funcionalidades (common, Product, Cart, User, Order).
+- pages: Contém os componentes de página principais, cada um representando uma rota do aplicativo.
+- services: Abstrações para chamadas de API e outras utilidades.
+- store: Configuração do Redux, incluindo actions, reducers e middlewares.
+- styles: Arquivos de estilo CSS.
+- public: Arquivos públicos como index.html.

@@ -1,4 +1,4 @@
-import './Footer.css';
+import './Common.css';
 
 export const Footer = () => {
     const alertEmail = (): void => {
